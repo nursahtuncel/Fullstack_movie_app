@@ -9,6 +9,9 @@ const server =http.createServer((req,res)=>{
     
 res.setHeader("content-type", "aplication/json")
 
+// kaynak papylaşımında sorun yaşamamak için
+res.setHeader("Access-Control-Allow-Origin", "*")
+
 switch(req.method){
 
     case "GET": 
