@@ -4,6 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import Loader from "../components/Loader"
 import Error from "../components/Error"
 import Card from '../components/Card';
+import Hero from '../components/Hero';
 
 const Home = () => {
   const { data, error, isLoading,refetch } = useQuery({
@@ -12,7 +13,7 @@ const Home = () => {
   });
 return (
   <>
-  
+  <Hero/>
     {isLoading ? (
       <Loader />
     ) : error ? (
