@@ -1,34 +1,45 @@
 import React from "react";
 import InputField from "../components/InputField";
-
+import fields from "../components/FieldData"
+import api from "../../utils/api"
 const Create = () => {
-  const fields = [
-    { name: "title", label: "Başlık" },
-    { name: "description", label: "Açıklama" },
-    { name: "rating", label: "puan", type: "number",min:"1", max:"10" },
-    { name: "cast", label: "ekip(, ile ayırınız)" },
-    { name: "genre", label: "Şifre"  },
-    { name: "year", label: "yıl",type:"number" ,min:"1900", max:"2026" },
-    { name: "duration", label: "süre", type: "number"
-     },
-         { name: "director", label: "Yapımcı"
-     },
-    { name: "genre", label: "Kategoriler (, ile ayırınız)" },
- 
-  ];
 
+  const handleSubmit= (e)=>{
+    e.preventDefault();
+    // inputlardaki verilerin hepsini alıyorum
+    const formData =new FormData(e.target);
+    // inputlardaki veriyi nesne şeklinde alıyorum
+    const movieData = Object.fromEntries(formData.entries());
+// Kategorileri diziye çevir
+ movieData.genre =movieData.genre.split(",")
+ movieData.rating = Number(movieData.rating);
+
+ 
+// ekibi diziye çevir
+  movieData.cast=movieData.cast.split(",")
+  console.log(movieData)
+
+  // api'a film oluşturmak için http isteği at
+  api.post("/api/movies",movieData)
+  .then(()=>console.log("başarıı"))
+  .catch((err)=>console.log("hata oldu",err))
+
+  }
   return (
     <div className="min-h-screen bg-yellow-600 flex-1 grid place-items-center px-5">
       <div className="w-full m-4 bg-white max-w-[1000px] p-10 rounded shadow-lg grid grid-cols-1 md:grid-cols-2">
-        <form className="flex flex-col gap-8" action="">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-8" action="">
           <h1 className="text-3xl font-semibold">Yeni bir film oluştur</h1>
-          {fields.map((field) => (
-            <InputField
+          {fields.map((field,i) => (
+            <InputField key={i}
               {...field}
             />
           ))}
 
-          <button>Oluştur</button>
+        <button className="shadow border border-gray-200 py-3 rounded-lg hover:shadow-lg hover:bg-gray-200 transition">
+  Oluştur
+</button>
+
         </form>
       </div>
     </div>

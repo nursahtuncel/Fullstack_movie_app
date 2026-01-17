@@ -3,6 +3,7 @@ const getRequest = require("./methods/get")
 const deleteRequest= require("./methods/delete")
 const postRequest = require("./methods/post")
 const defaultRequest= require("./methods/default")
+const optionsRequest=require("./methods/options")
 
 
 const server =http.createServer((req,res)=>{
@@ -22,6 +23,9 @@ switch(req.method){
     
     case "DELETE": 
     return deleteRequest(req,res)
+
+    case "OPTIONS": 
+    return optionsRequest(req,res)
     
     default :
     defaultRequest(req,res)

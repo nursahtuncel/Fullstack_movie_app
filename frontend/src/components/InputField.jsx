@@ -7,7 +7,8 @@ const InputField = ({ name, label,type="text",min,max }) => {
         <input
           type={type}
           id={name}
-          placeholder=" "
+            name={name} 
+           placeholder=" "
           required
           min={min}
           max={max}
