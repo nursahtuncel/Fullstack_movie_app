@@ -5,12 +5,21 @@ import Loader from "../components/Loader"
 import Error from "../components/Error"
 import Card from '../components/Card';
 import Hero from '../components/Hero';
-
+import { useSearchParams } from 'react-router-dom';
 const Home = () => {
-  const { data, error, isLoading,refetch } = useQuery({
-    queryKey: ["movies"],
-    queryFn: () => api.get("/api/movies").then(res => res.data)
-  });
+  const [params ,setParams]=useSearchParams()
+
+  // api isteğinde kullalnılacak nesne
+const search = params.get("search");
+
+const { data, error, isLoading } = useQuery({
+  queryKey: ["movies", search],
+  queryFn: () =>
+    api.get("/api/movies", {
+      params: { search }
+    }).then(res => res.data)
+});
+
 return (
   <>
   <Hero/>
@@ -18,9 +27,9 @@ return (
       <Loader />
     ) : error ? (
       <Error info={error} refetch={refetch} />
-    ) : (
+    ) : ( 
       <>
-        <h1>Movies</h1>
+    
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 p-4 '>
            {data.map(movie => (
           <Card key={movie.id} movie={movie} />

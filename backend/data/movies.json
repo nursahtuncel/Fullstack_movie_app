@@ -1,21 +1,9 @@
 [
   {
-    "title": "The Dark Knight",
-    "year": "2008",
-    "genre": ["Aksiyon", "Suç", "Dram"],
-    "rating": "9.0",
-    "description": "Batman, Gotham’ı kaosa sürükleyen Joker ile mücadele ederken ahlaki sınırlarını zorlar.",
-    "director": "Christopher Nolan",
-    "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
-    "duration": "2s 32dk",
-    "language": "İngilizce",
-    "id": "1a2b3c4d-1111-2222-3333-444444444444"
-  },
-  {
     "title": "Interstellar",
     "year": "2014",
     "genre": ["Bilim Kurgu", "Dram", "Macera"],
-    "rating": "8.6",
+    "rating": "5",
     "description": "İnsanlığın hayatta kalması için bir grup astronot uzayın derinliklerine yolculuk eder.",
     "director": "Christopher Nolan",
     "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
@@ -27,7 +15,7 @@
     "title": "Matrix",
     "year": "1999",
     "genre": ["Bilim Kurgu", "Aksiyon"],
-    "rating": "8.7",
+    "rating": "7",
     "description": "Bir hacker, yaşadığı dünyanın aslında bir simülasyon olduğunu keşfeder.",
     "director": "Lana Wachowski, Lilly Wachowski",
     "cast": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
