@@ -1,229 +1,122 @@
 [
   {
-    "title": "Stranger Things",
-    "description": "Rüyalar içinde rüyaların keşfedildiği bir aksiyon dolu bilim kurgu filmi.",
-    "rating": "6",
-    "year": "2020",
+    "title": "The Dark Knight",
+    "year": "2008",
+    "genre": ["Aksiyon", "Suç", "Dram"],
+    "rating": "9.0",
+    "description": "Batman, Gotham’ı kaosa sürükleyen Joker ile mücadele ederken ahlaki sınırlarını zorlar.",
     "director": "Christopher Nolan",
-    "duration": "2s 11dk",
+    "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "duration": "2s 32dk",
     "language": "İngilizce",
-    "cast": [
-      "Leonardo DiCaprio",
-      "Joseph Gordon-Levitt",
-      "Elliot Page"
-    ],
-    "genre": [
-      "Bilim Kurgu",
-      "Aksiyon"
-    ],
-    "id": "939ea0b8-4520-4cb8-adad-3e6b7d3d036d"
+    "id": "1a2b3c4d-1111-2222-3333-444444444444"
   },
   {
-    "title": "Esaretin Bedeli",
-    "year": "1994",
-    "genre": [
-      "Dram",
-      "Suç"
-    ],
-    "rating": "9.3",
-    "description": "Haksız yere ömür boyu hapis cezasına çarptırılan bir bankacının umut ve dostlukla dolu hikayesi.",
-    "director": "Frank Darabont",
-    "cast": [
-      "Tim Robbins",
-      "Morgan Freeman",
-      "Bob Gunton"
-    ],
-    "duration": "2s 22dk",
-    "language": "İngilizce",
-    "id": "316b40c3-37b9-4d6a-a022-1eb20ab62a27"
-  },
-  {
-    "title": "Esaretin Bedeli",
-    "year": "1994",
-    "genre": [
-      "Dram",
-      "Suç"
-    ],
-    "rating": "9.3",
-    "description": "Haksız yere ömür boyu hapis cezasına çarptırılan bir bankacının umut ve dostlukla dolu hikayesi.",
-    "director": "Frank Darabont",
-    "cast": [
-      "Tim Robbins",
-      "Morgan Freeman",
-      "Bob Gunton"
-    ],
-    "duration": "2s 22dk",
-    "language": "İngilizce",
-    "id": "14cda685-4fea-4ea9-bec1-5c1cfe23b205"
-  },
-  {
-    "title": "Esaretin Bedeli",
-    "year": "1994",
-    "genre": [
-      "Dram",
-      "Suç"
-    ],
-    "rating": "9.3",
-    "description": "Haksız yere ömür boyu hapis cezasına çarptırılan bir bankacının umut ve dostlukla dolu hikayesi.",
-    "director": "Frank Darabont",
-    "cast": [
-      "Tim Robbins",
-      "Morgan Freeman",
-      "Bob Gunton"
-    ],
-    "duration": "2s 22dk",
-    "language": "İngilizce",
-    "id": "754373fd-b0f5-4993-a66e-4913e55d2f30"
-  },
-  {
-    "title": "Başlangıç",
-    "year": "2010",
-    "genre": [
-      "Bilim Kurgu",
-      "Aksiyon",
-      "Macera"
-    ],
-    "rating": "8.8",
-    "description": "Bir grup hırsız, insanların rüyalarına girerek fikir çalarken, şimdi tam tersini yapmak için bir görev üstlenir.",
+    "title": "Interstellar",
+    "year": "2014",
+    "genre": ["Bilim Kurgu", "Dram", "Macera"],
+    "rating": "8.6",
+    "description": "İnsanlığın hayatta kalması için bir grup astronot uzayın derinliklerine yolculuk eder.",
     "director": "Christopher Nolan",
-    "cast": [
-      "Leonardo DiCaprio",
-      "Joseph Gordon-Levitt",
-      "Elliot Page"
-    ],
-    "duration": "2s 28dk",
+    "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    "duration": "2s 49dk",
     "language": "İngilizce",
-    "id": "5a0a7ac2-a166-4e82-bcc2-a3d52b749eab"
+    "id": "2b3c4d5e-5555-6666-7777-888888888888"
   },
   {
-    "title": "Yenilmezler: Ultron Çağı",
-    "year": "2015",
-    "genre": [
-      "Aksiyon",
-      "Bilim Kurgu",
-      "Macera"
-    ],
-    "rating": "7.3",
-    "description": "Süper kahramanlar, dünyayı tehdit eden yapay zeka Ultron'a karşı güçlerini birleştiriyor.",
-    "director": "Joss Whedon",
-    "cast": [
-      "Robert Downey Jr.",
-      "Scarlett Johansson",
-      "Mark Ruffalo"
-    ],
-    "duration": "2s 21dk",
-    "language": "ingilizce",
-    "id": "1bc38e79-4e59-4b28-a1f6-d9692920c551"
-  },
-  {
-    "title": "yenilmezler",
-    "year": "1994",
-    "genre": [
-      "Dram",
-      "Suç"
-    ],
-    "rating": "9.3",
-    "description": "Haksız yere ömür boyu hapis cezasına çarptırılan bir bankacının umut ve dostlukla dolu hikayesi.",
-    "director": "Frank Darabont",
-    "cast": [
-      "Tim Robbins",
-      "Morgan Freeman",
-      "Bob Gunton"
-    ],
-    "duration": "2s 22dk",
+    "title": "Matrix",
+    "year": "1999",
+    "genre": ["Bilim Kurgu", "Aksiyon"],
+    "rating": "8.7",
+    "description": "Bir hacker, yaşadığı dünyanın aslında bir simülasyon olduğunu keşfeder.",
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "cast": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+    "duration": "2s 16dk",
     "language": "İngilizce",
-    "id": "eac43586-1bea-44c9-b47f-46f6c1fea9e7"
+    "id": "3c4d5e6f-9999-aaaa-bbbb-cccccccccccc"
   },
   {
-    "title": "yenilmezler",
-    "year": "1994",
-    "genre": [
-      "Dram",
-      "Suç"
-    ],
-    "rating": "9.3",
-    "description": "Haksız yere ömür boyu hapis cezasına çarptırılan bir bankacının umut ve dostlukla dolu hikayesi.",
-    "director": "Frank Darabont",
-    "cast": [
-      "Tim Robbins",
-      "Morgan Freeman",
-      "Bob Gunton"
-    ],
-    "duration": "2s 22dk",
-    "language": "İngilizce",
-    "id": "332317b0-9b5a-4b9a-8d57-2cf96e026ec0"
-  },
-  {
-    "title": "yenilmezler",
-    "year": "1994",
-    "genre": [
-      "Dram",
-      "Suç"
-    ],
-    "rating": "9.3",
-    "description": "Haksız yere ömür boyu hapis cezasına çarptırılan bir bankacının umut ve dostlukla dolu hikayesi.",
-    "director": "Frank Darabont",
-    "cast": [
-      "Tim Robbins",
-      "Morgan Freeman",
-      "Bob Gunton"
-    ],
-    "duration": "2s 22dk",
-    "language": "İngilizce",
-    "id": "75510fcb-5151-4802-87fd-68de2a9beb89"
-  },
-  {
-    "title": "yenilmezler",
-    "year": "1994",
-    "genre": [
-      "Dram",
-      "Suç"
-    ],
-    "rating": "9.3",
-    "description": "Haksız yere ömür boyu hapis cezasına çarptırılan bir bankacının umut ve dostlukla dolu hikayesi.",
-    "director": "Frank Darabont",
-    "cast": [
-      "Tim Robbins",
-      "Morgan Freeman",
-      "Bob Gunton"
-    ],
-    "duration": "2s 22dk",
-    "language": "İngilizce",
-    "id": "4bb42600-4c69-478e-8d75-bcbf86299f72"
-  },
-  {
-    "title": "yenilmezler",
-    "year": "1994",
-    "genre": [
-      "Dram",
-      "Suç"
-    ],
-    "rating": "9.3",
-    "description": "Haksız yere ömür boyu hapis cezasına çarptırılan bir bankacının umut ve dostlukla dolu hikayesi.",
-    "director": "Frank Darabont",
-    "cast": [
-      "Tim Robbins",
-      "Morgan Freeman",
-      "Bob Gunton"
-    ],
-    "duration": "2s 22dk",
-    "language": "İngilizce",
-    "id": "515d0cce-573a-4a46-b1c3-7d12c771ed18"
-  },
-  {
-    "title": "sasa",
+    "title": "Gladiator",
     "year": "2000",
-    "genre": [
-      "sasas"
-    ],
-    "rating": 5,
-    "description": "sa",
-    "director": "sas",
-    "cast": [
-      "asa"
-    ],
-    "duration": "1109",
-    "language": "sas",
-    "id": "63ed7555-7f6f-4892-a4d3-5549aa712f18"
+    "genre": ["Aksiyon", "Dram", "Tarih"],
+    "rating": "8.5",
+    "description": "İhanete uğrayan bir general, Roma arenasında intikam arar.",
+    "director": "Ridley Scott",
+    "cast": ["Russell Crowe", "Joaquin Phoenix"],
+    "duration": "2s 35dk",
+    "language": "İngilizce",
+    "id": "4d5e6f7g-dddd-eeee-ffff-111111111111"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": "1994",
+    "genre": ["Dram", "Romantik"],
+    "rating": "8.8",
+    "description": "Sıradan bir adamın olağanüstü hayat yolculuğu.",
+    "director": "Robert Zemeckis",
+    "cast": ["Tom Hanks", "Robin Wright"],
+    "duration": "2s 22dk",
+    "language": "İngilizce",
+    "id": "5e6f7g8h-2222-3333-4444-555555555555"
+  },
+  {
+    "title": "Fight Club",
+    "year": "1999",
+    "genre": ["Dram"],
+    "rating": "8.8",
+    "description": "Tüketim toplumundan sıkılan bir adam gizli bir dövüş kulübü kurar.",
+    "director": "David Fincher",
+    "cast": ["Brad Pitt", "Edward Norton"],
+    "duration": "2s 19dk",
+    "language": "İngilizce",
+    "id": "6f7g8h9i-6666-7777-8888-999999999999"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "genre": ["Suç", "Dram"],
+    "rating": "8.9",
+    "description": "Birbirine bağlı suç hikâyeleri sıra dışı bir anlatımla sunulur.",
+    "director": "Quentin Tarantino",
+    "cast": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
+    "duration": "2s 34dk",
+    "language": "İngilizce",
+    "id": "7g8h9i0j-aaaa-bbbb-cccc-dddddddddddd"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": "2001",
+    "genre": ["Fantastik", "Macera"],
+    "rating": "8.8",
+    "description": "Orta Dünya’yı kurtarmak için bir yüzük yok edilmelidir.",
+    "director": "Peter Jackson",
+    "cast": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+    "duration": "2s 58dk",
+    "language": "İngilizce",
+    "id": "8h9i0j1k-eeee-ffff-gggg-hhhhhhhhhhhh"
+  },
+  {
+    "title": "Joker",
+    "year": "2019",
+    "genre": ["Dram", "Suç"],
+    "rating": "8.4",
+    "description": "Toplum tarafından dışlanan bir adamın Joker’e dönüşüm hikâyesi.",
+    "director": "Todd Phillips",
+    "cast": ["Joaquin Phoenix"],
+    "duration": "2s 2dk",
+    "language": "İngilizce",
+    "id": "9i0j1k2l-iiii-jjjj-kkkk-llllllllllll"
+  },
+  {
+    "title": "Parasite",
+    "year": "2019",
+    "genre": ["Dram", "Gerilim"],
+    "rating": "8.5",
+    "description": "Fakir bir aile zengin bir ailenin hayatına sızar.",
+    "director": "Bong Joon-ho",
+    "cast": ["Song Kang-ho", "Lee Sun-kyun"],
+    "duration": "2s 12dk",
+    "language": "Korece",
+    "id": "0j1k2l3m-mmmm-nnnn-oooo-pppppppppppp"
   }
 ]

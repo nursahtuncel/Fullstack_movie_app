@@ -6,7 +6,7 @@ const Card = ({ movie }) => {
   const color =
     r > 9 ? "#16C47F" : r > 8 ? "#FFEB00" : r > 7 ? "#FFD65A" : "#F93827";
 
-  console.log(movie);
+
   return (
     <Link
     to={`/movie/${movie.id}`}
