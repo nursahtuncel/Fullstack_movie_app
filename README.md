@@ -1,8 +1,14 @@
 # 🎬 Movie App
 
-Bu proje, React ve Node.js tabanlı basit bir **Film Yönetim Uygulamasıdır**. Kullanıcılar filmleri listeleyebilir, detaylarını görüntüleyebilir ve film silebilir. Proje, frontend ve backend arasındaki temel CRUD mantığını öğrenmek ve pekiştirmek amacıyla geliştirilmiştir.
+Bu proje, React ve Node.js tabanlı basit bir **Film Yönetim Uygulamasıdır**. Kullanıcılar filmleri listeleyebilir,filtreleyebilir, detaylarını görüntüleyebilir ve film silebilir.
 
----
+****************************
+![bandicam 2026-01-18 18-04-26-982](https://github.com/user-attachments/assets/341bd84e-8cb7-4431-ac3d-81aa09791717)
+*****************************
+![bandicam 2026-01-18 18-05-01-487](https://github.com/user-attachments/assets/fe2554fd-c104-4db9-98c6-130b81559685)
+******************
+![bandicam 2026-01-18 18-05-31-686](https://github.com/user-attachments/assets/2f80078f-1b22-4b56-a8b2-8c2cf2fadf7d)
+************************
 
 ## 🚀 Kullanılan Teknolojiler
 
@@ -22,6 +28,7 @@ Bu proje, React ve Node.js tabanlı basit bir **Film Yönetim Uygulamasıdır**.
 * HTTP Module
 * File System (fs)
 * JSON tabanlı veri saklama
+* nodemon
 
 ---
 
@@ -59,12 +66,14 @@ Bu proje, React ve Node.js tabanlı basit bir **Film Yönetim Uygulamasıdır**.
 
 ## 🔗 API Endpointleri
 
-| Method | Endpoint        | Açıklama             |
-| ------ | --------------- | -------------------- |
-| GET    | /api/movies     | Tüm filmleri getirir |
-| GET    | /api/movies/:id | Tek film detayı      |
-| POST   | /api/movies     | Yeni film ekleme     |
-| DELETE | /api/movies/:id | Film silme           |
+| Method | Endpoint                     | Açıklama             |
+| ------ | ---------------------------- | -------------------- |
+| GET    | /api/movies                  | Tüm filmleri getirir |
+| GET    | /api/movies/:id              | Tek film detayı      |
+| GET    | /api/movies?search=metin     | Film filtreleme      |
+| POST   | /api/movies                  | Yeni film ekleme     |
+| DELETE | /api/movies/:id              | Film silme           |
+
 
 ---
 
@@ -119,13 +128,6 @@ npm run dev
 ```
 
 > Backend ve frontend aynı projede çalışacak şekilde yapılandırılmıştır.
-
----
-
-## 👩‍💻 Geliştirici
-
-**Nurşah Tunçel**
-Frontend Developer (React)
 
 ---
 
